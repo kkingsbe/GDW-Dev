@@ -6,6 +6,7 @@ window.addEventListener('load', () => {
     } else {
         let truncAddress = address.substring(0,5) + "..." + address.substring(address.length - 4)
         $("#walletAddress").html(truncAddress)
+        $("#editBtn").css("display", "block")
     }
 
     console.log(address)

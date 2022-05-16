@@ -205,8 +205,41 @@ text-align: center; "> </p>
         
         
         <!-- country owners -->
-    <div id="owner" style="background: no-repeat center center/cover; box-shadow: 1px 3px 15px; width:180px; background-color:white; padding:2px; padding-left:10px; display:block; margin-left:4px; "></div>
-       
+    <div id="owner" style="position: relative; background: no-repeat center center/cover; box-shadow: 1px 3px 15px; width:180px; background-color:white; padding:2px; padding-left:10px; display:block; margin-left:4px; ">
+      <p style='font-family:Arial; margin-top:2px; padding-bottom:4px;'>
+        <span style='font-weight: bold; font-size:16px;'>
+          Ali sabet
+          <img style='height:20px; position:relative; top:4px; margin-left:4px;' src='verifyB.png'>
+        </span>
+        <br>
+        <a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/22397481368411838953467959367242755130058808779998063417175655766280300920833' target='_blank' style='font-weight: bold; color:#da9100; font-style:italic; font-size:16px;'>
+          Owner of Iran
+          <img style='height:16px; position:relative; top:3px; margin-left:4px;' src='openseaIcon.png'>
+        </a>
+        <br>
+        <span style='font-size:13px;'>Acquired 24.4.2021
+          <br>
+          <br>
+          <a href='https://opensea.io/collection/sabet' target='_blank' style='color:black; font-weight:bold; font-size:13px;'>
+            NFT Collection @Sabet
+          </a>
+          <br>
+          <span style='font-style:italic; font-size:13px; margin-left:-6px; '>
+            ''Iranian-American Painter / Designer / Energy Healer''
+          </span>
+          <br>
+          <br>
+          Owns
+          <a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/1320647387308535254427024482131342257786249516275092859116705959376662298634' target='_blank' style='font-weight: bold; color: black; font-style:italic; font-size:13px;'>
+            'Speed Racer 2021'
+          </a>
+          <br>
+          <span style='float:right; padding-right:6px; padding-top:4px; margin-bottom:4px;'>
+            Fibonacci 55
+          </span>
+        </p>
+      <img id="editBtn" style="position: absolute; top: 10px; right: 10px; width: 25px; height: 25px; cursor: pointer; display: none;" src="./assets/edit.png"></img>
+    </div>
       <div id="ownerState" style="background: no-repeat center center/cover; box-shadow: 1px 3px 15px; width:180px; background-color:white; padding:2px; padding-left:10px; display:none; margin-left:4px; margin-top:10px; "></div>
     
       <div id="ownerCounty" style="background:no-repeat center center/cover; box-shadow: 1px 3px 15px; width:180px; background-color:white; padding:2px; padding-left:10px; display:none; margin-left:4px; margin-top:10px; "></div>
@@ -260,7 +293,7 @@ var countryName = "Iran"
             document.getElementById("owner").style.display = "block";
             document.getElementById("ownerIR").style.display = "block";
             
-            document.getElementById("owner").innerHTML = "<P style='font-family:Arial; margin-top:2px; padding-bottom:4px;'><span style='font-weight: bold; font-size:16px;'>" + "Ali Sabet" + " <img style='height:20px; position:relative; top:4px; margin-left:4px;' src='verifyB.png'> " + "</span><br><a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/22397481368411838953467959367242755130058808779998063417175655766280300920833' target='_blank' style='font-weight: bold; color:#da9100; font-style:italic; font-size:16px;'>" + "Owner of Iran" + " <img style='height:16px; position:relative; top:3px; margin-left:4px;' src='openseaIcon.png'> " + "</a><br><span style='font-size:13px;'>" + "Acquired 24.4.2021" + "<br><br>" + "<a href='https://opensea.io/collection/sabet' target='_blank' style='color:black; font-weight:bold; font-size:13px;'>NFT Collection @Sabet</a>"  +"<br><span style='font-style:italic; font-size:13px; margin-left:-6px; '>"  + "''Iranian-American Painter / Designer / Energy Healer''" + "</span><br><br>" + "Owns " + "<a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/1320647387308535254427024482131342257786249516275092859116705959376662298634' target='_blank' style='font-weight: bold; color: black; font-style:italic; font-size:13px;'>"+"'Speed Racer 2021'"+ "</a><br>" + "<span style='float:right; padding-right:6px; padding-top:4px; margin-bottom:4px;'>Fibonacci 55</span>"  + "</P>"
+            //document.getElementById("owner").innerHTML = "<p style='position: relative; font-family:Arial; margin-top:2px; padding-bottom:4px;'><span style='font-weight: bold; font-size:16px;'>" + "Ali Sabet" + " <img style='height:20px; position:relative; top:4px; margin-left:4px;' src='verifyB.png'> " + "</span><br><a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/22397481368411838953467959367242755130058808779998063417175655766280300920833' target='_blank' style='font-weight: bold; color:#da9100; font-style:italic; font-size:16px;'>" + "Owner of Iran" + " <img style='height:16px; position:relative; top:3px; margin-left:4px;' src='openseaIcon.png'> " + "</a><br><span style='font-size:13px;'>" + "Acquired 24.4.2021" + "<br><br>" + "<a href='https://opensea.io/collection/sabet' target='_blank' style='color:black; font-weight:bold; font-size:13px;'>NFT Collection @Sabet</a>"  +"<br><span style='font-style:italic; font-size:13px; margin-left:-6px; '>"  + "''Iranian-American Painter / Designer / Energy Healer''" + "</span><br><br>" + "Owns " + "<a href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/1320647387308535254427024482131342257786249516275092859116705959376662298634' target='_blank' style='font-weight: bold; color: black; font-style:italic; font-size:13px;'>"+"'Speed Racer 2021'"+ "</a><br>" + "<span style='float:right; padding-right:6px; padding-top:4px; margin-bottom:4px;'>Fibonacci 55</span>"  + "</p>"
           //  }
           
         
