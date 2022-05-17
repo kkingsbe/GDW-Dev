@@ -48,6 +48,10 @@ function init() {
       }
     },
 
+    coinbasewallet: {
+      
+    },
+
     fortmatic: {
       package: Fortmatic,
       options: {
